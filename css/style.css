@@ -1,0 +1,169 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap&subset=cyrillic-ext');
+@import url('https://fonts.googleapis.com/css?family=Lora:regular,700&display=swap&subset=cyrillic-ext');
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Monoton&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Aclonica&display=swap');
+
+@font-face {
+	font-family: 'Rapsodie';
+	src: url('../fonts/Rapsodie-SemiBold.woff2') format('woff2'),
+		 url('../fonts/Rapsodie-SemiBold.woff') format('woff');
+	font-weight: 600;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'Rapsodie';
+	src: url('../fonts/Rapsodie-BoldItalic.woff2') format('woff2'),
+		 url('../fonts/Rapsodie-BoldItalic.woff') format('woff');
+	font-weight: bold;
+	font-style: italic;
+	font-display: swap;
+}
+
+
+*,
+*::before,
+*::after {
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+li {
+	list-style: none;
+}
+a,
+a:visited {
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-weight: inherit;
+	font-size: inherit;
+}
+img {
+	vertical-align: top;
+}
+body {
+	color: #10375C;
+	line-height: 1;
+	font-family: "Lato", sans-serif;
+}
+
+.logo{
+	font-family: lora;
+	font-size: 24px;
+	font-weight: 700;
+	color: #10375C;
+}
+.menu {
+	text-align: center;
+	word-spacing: 40px;
+	white-space: nowrap;
+	font-family: lato;
+	font-weight: 700;
+}
+.menu1 {color: darkgreen;}
+.menu2 {color: darkmagenta;}
+.menu3 {color: darkorange;}
+.menu4 {color: deeppink;}
+.menu5 {color: dodgerblue;}
+.menu6 {color: gold;
+}
+
+h1{
+	font-size: 52px;
+	font-weight: 700;
+	font-family: lora;
+	text-shadow: 10px -15px 5px #DD2C00;
+	line-height: 200%;
+}
+h1 span{
+	color: #DD2C00;
+	text-shadow: -10px 15px 5px #10375C;
+}
+
+
+.text1{
+	font-size: 20px;
+	color: #222831;
+	text-decoration: underline;
+}
+.text2{
+	font-size: 20px;
+	color: #6A6A6A;
+	text-decoration: line-through;
+	letter-spacing: 5px;
+}
+.text2 span{
+	color: red;
+}
+h2{
+	font-size: 40px;
+	font-weight: 700;
+	font-family: lora;
+	text-shadow: 5px 5px 5px brown;
+	letter-spacing: 10px;
+	text-transform: uppercase;
+	font-style: oblique;
+	text-align: center;
+}
+.text3{
+	font-family: 'Rapsodie';
+	font-size: 50px;
+	font-style: italic;
+	color: rgb(145, 255, 0);
+	letter-spacing: 5px;
+	text-indent: 60px;
+}
+h3{
+	text-transform: capitalize;
+	color: crimson;
+	font-weight: 700;
+	font-size: 32px;
+	font-style: italic;
+	font-family: 'Press Start 2P', cursive;
+	text-align: right;
+}
+.text4{
+	font-family: 'Orbitron', sans-serif;
+	font-size: 25px;
+	text-shadow:5px 5px 5px #14ff27f3;
+}
+.title2{
+	font-family: 'Monoton', cursive;
+	color: orangered;
+	text-shadow: none;
+	font-weight: normal;
+}
+.text5{
+	color: crimson;
+	font-size: 20px;
+	text-transform: lowercase;
+	line-height: 150%;
+	font-family: 'Aclonica', sans-serif;
+	text-shadow:11px 10px 1px rgba(139, 0, 109, 0.452);
+}
+footer{
+	font-family: lora;
+	font-size: 20px;
+	text-align: center;
+	text-decoration: overline;
+	font-weight: 700;
+}
+footer .footer ul{
+	text-decoration: overline white;
+	line-height: 200%;
+	font-weight: normal;
+	color: tomato;
+	font-size: 15px;
+}
